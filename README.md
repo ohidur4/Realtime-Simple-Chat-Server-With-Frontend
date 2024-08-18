@@ -29,24 +29,10 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/realtime-chat-project.git
    cd realtime-chat-project
-#Install dependencies:
+### Install dependencies:
 
 bash
-Copy code
-npm install
-Set up environment variables:
-
-Create a .env file in the root directory and add:
-
-bash
-Copy code
-PORT=3000
-Start the server:
-
-bash
-Copy code
-npm start
-The server runs on port 3000 by default. Modify this in the .env file if needed.
+**npm install**
 
 Open your browser and navigate to:
 
@@ -59,26 +45,6 @@ Enter a Username: Provide your desired username in the input field.
 Join the Chat Room: Click the "Join" button to enter.
 Send Messages: Type your message in the input box and press Enter.
 View Chat History: See past messages and who sent them.
-💻 Development
-To contribute or make modifications:
-
-Create a new branch:
-
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make changes and commit:
-
-bash
-Copy code
-git add .
-git commit -m "Add feature: your-feature-name"
-Push to the repository:
-
-bash
-Copy code
-git push origin feature/your-feature-name
-Open a Pull Request: Go to GitHub and create a pull request.
 
 📝 License
 This project is licensed under the MIT License.
