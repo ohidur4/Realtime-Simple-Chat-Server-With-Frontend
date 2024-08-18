@@ -31,7 +31,7 @@ Ensure you have the following installed:
    cd realtime-chat-project
 ### Install dependencies:
 
-bash
+
 **npm install**
 
 Open your browser and navigate to:
