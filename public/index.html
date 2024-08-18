@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Room 404</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card__container">
+    <div class="input__container">
+      <div class="shadow__input"></div>
+      <h1 class="card__heading">Welcome to Room No. 404</h1>
+      <h2 class="card__subheading">by Syrus</h2>
+    </div>
+  
+    <div id="chat-box" class="chat-box"></div>
+    <div class="input__container">
+      <input id="username" type="text" class="input__search" placeholder="Enter username" />
+      <button id="join-btn" class="input__button__shadow">Join Chat</button>
+    </div>
+    <div class="input__container" style="display: none;" id="chat-input-container">
+      <input id="message" type="text" class="input__search" placeholder="Type a message" />
+      <button id="send-btn" class="input__button__shadow">Send</button>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
